@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: lightblue;
+    font-family: 'Open Sans', sans-serif;   
 }
 
 main {
@@ -31,8 +34,9 @@ header {
 }
 
 header>h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     align-self: center;
+    padding-left: 1rem;
 }
 
 header>img {
@@ -99,6 +103,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: white;
+    padding-left: 0.5rem;
 }
 
 footer>.footer-bottom {
@@ -107,7 +112,7 @@ footer>.footer-bottom {
 }
 
 .main {
-    height: 70vh;
+    height: 68vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -123,6 +128,16 @@ footer>.footer-bottom {
     height: calc(100% / 3);
     width: auto;
     margin: 1rem;
+    padding: 0.5rem;
+}
+
+.main>div>h2 {
+    font-size: 1.6em ;
+    font-weight: 5000;
+}
+
+.footer-info {
+    padding-right: 1%;
 }
 
 #middle {
