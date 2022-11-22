@@ -82,13 +82,25 @@ footer {
 }
 
 .main {
-    height: 60vh;
+    height: 70vh;
     width: auto;
+    display: flex;
+    flex-direction: column;
     background-color: lightgrey;
-    margin-bottom: 1vh;
+   margin-bottom: 1vh;
 }
 
 .main>div:not(#middle) {
+    background-color: white;
+}
+
+.main>div {
+    height: calc(100% / 3);
+    width: auto;
+    margin: 1rem;
+}
+
+#middle {
     color:red;
 }
 
